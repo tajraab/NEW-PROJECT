@@ -21,6 +21,7 @@ img {
   color: grey;
   justify-content: space-around;
   padding: 10px;
+  gap: 50px;
 }
 .links h2 {
   margin-right: 20px;
