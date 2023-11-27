@@ -1,6 +1,8 @@
 import React from "react";
 import "./header.css";
+import {useNavigate}from "react-router-dom";
 function Header() {
+    const navigate=useNavigate();
   return (
     <div className="headerContainer">
       <div classNaame="logo">
