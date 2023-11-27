@@ -1,29 +1,26 @@
 .headerContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f0f0f0; 
-    p
-  }
-  
-  .logo {
-    font-size: 24px;
-    color: #007bff;
-  }
-  
-  .links {
-    display: flex;
-  }
-  
-  .links h3 {
-    margin-right: 20px;
-    cursor: pointer;
-    color:grey
-  }
-  
-  /* Stilizuj hiperlinkove prema potrebi */
-  .links h3:hover {
-    color: #007bff;
-    text-decoration: underline;
-  }
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.links {
+  display: flex;
+  color: grey;
+  justify-content: space-around;
+}
+.links h3 {
+  margin-right: 20px;
+}
