@@ -20,7 +20,8 @@ img {
   display: flex;
   color: grey;
   justify-content: space-around;
+  padding: 10px;
 }
-.links h3 {
+.links h2 {
   margin-right: 20px;
 }
