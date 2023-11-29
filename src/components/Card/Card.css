@@ -1,0 +1,31 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #6d4a4a;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.card .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card .price {
+  font-size: 16px;
+  color: #28a745;
+}
+
+.card .rank {
+  font-size: 14px;
+  color: #6c757d;
+}

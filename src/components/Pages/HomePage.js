@@ -37,7 +37,7 @@ function HomePage() {
 }, []);
 return(
     <div>
-      <h1>dasdas</h1>
+      <h1>Crypto currency</h1>
     {coinData.map((coin) => (
       <Card key={coin.id} coin={coin}> </Card>
     ))}
