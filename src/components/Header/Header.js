@@ -1,7 +1,8 @@
-import React from "react";
-import "./header.css";
-import {useNavigate}from "react-router-dom";
 import React, { useState } from "react";
+import "./header.css";
+import { useNavigate } from "react-router-dom";
+
+
 function Header() {
      const navigate = useNavigate();
   return (
@@ -11,9 +12,10 @@ function Header() {
         <img src=" https://topliste.rs/wp-content/uploads/2020/05/ethereum-3818348_1920.jpg" />
       </div>
         <div className="links">
-          <h2>All products</h2>
-          <h2>About</h2>
-          <h2>Contact us</h2>
+          <h2 onClick={()=>navigate("/crypto")}>All products</h2>
+          <h2 onClick={()=>navigate("/exchanges")}>About</h2>
+          <h2 >Contact us</h2>
+          
         </div>
     </div>
   );
