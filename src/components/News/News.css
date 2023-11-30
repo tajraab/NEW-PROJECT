@@ -1,0 +1,26 @@
+.caart {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .caart:hover {
+    transform: scale(1.05);
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .total {
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .min, .raank, .coinn {
+    margin-top: 4px;
+    color: #555; 
+  }

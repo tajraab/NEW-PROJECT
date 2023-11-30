@@ -15,7 +15,7 @@ function NewsPage() {
             "tiers[0]": "1",
             orderBy: "marketCap",
             orderDirection: "desc",
-            limit: "30",
+            limit: "40",
             offset: "0",
           },
           headers: {
