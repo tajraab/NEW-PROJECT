@@ -1,6 +1,6 @@
 .footer {
-    background-color: #282c34;
-    color: #61dafb;
+    background-color:grey;
+    color:darkgray;
     padding: 40px 20px;
   }
   
@@ -14,10 +14,11 @@
   .footer-section {
     max-width: 300px;
     text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .footer-section h3 {
-    color: #61dafb;
+    color:darkgray;
   }
   
   .footer-section p {
@@ -35,11 +36,11 @@
   }
   
   .footer-section a {
-    color: #61dafb;
+    color:darkgray;
     text-decoration: none;
     transition: color 0.3s;
   }
   
   .footer-section a:hover {
-    color: #fd7e14;
+    color:darkgray;
   }

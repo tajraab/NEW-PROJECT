@@ -21,6 +21,7 @@ function App() {
             <Route path="/news" element={<NewsPage />} />
           </Routes>
         </div>
+        <Footer />
       </BrowserRouter>
     </div>
   );
