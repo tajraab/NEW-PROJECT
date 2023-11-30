@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Header />
         
-        <div style={{ padding: "0 20%", minHeight: "66.5vh" }}>
+        <div>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/crypto" element={<Crypto />} />
