@@ -36,13 +36,22 @@ function ExchangesPage() {
     fetchData();
   }, []);
   return (
-    <div>
-      <h1>EXCHANGES</h1>
-      {coinData.map((coin) => (
-        <About key={coin.id} coin={coin} />
-      ))}
+    <div className="wrapper">
+    {/* <h1 style = {{color: "white"}}>CRYPTO CURRENCY</h1> */}
+    <div className="spacer"></div>
+    <div className="coin-container">
+      {coinData.map((coin) => <div className="coin"><About key={coin.id} coin={coin} /></div>)}
     </div>
-  );
+  </div>
+);
 }
+//     <div>
+//       <h1>EXCHANGES</h1>
+//       {coinData.map((coin) => (
+//         <About key={coin.id} coin={coin} />
+//       ))}
+//     </div>
+//   );
+// }
 
 export default ExchangesPage;

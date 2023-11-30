@@ -29,7 +29,7 @@ function HomePage() {
 
       try {
         const response = await axios.request(options);
-        setCoinData(response.data.data.coins); // Postavljanje podataka pomoću setCoinData
+        setCoinData(response.data.data.coins); 
       } catch (error) {
         console.error(error);
       }

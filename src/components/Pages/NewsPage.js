@@ -36,14 +36,23 @@ function NewsPage() {
       fetchData();
     }, []);
     return (
-      <div>
-        <h1>NEWS</h1>
-        {coinData.map((coin) => (
-          <News key={coin.id} coin={coin} />
-        ))}
+        <div className="wrapper">
+        {/* <h1 style = {{color: "white"}}>CRYPTO CURRENCY</h1> */}
+        <div className="spacer"></div>
+        <div className="coin-container">
+          {coinData.map((coin) => <div className="coin"><News key={coin.id} coin={coin} /></div>)}
+        </div>
       </div>
     );
   }
+//       <div>
+//         <h1>NEWS</h1>
+//         {coinData.map((coin) => (
+//           <News key={coin.id} coin={coin} />
+//         ))}
+//       </div>
+//     );
+//   }
   
   export default NewsPage;
   

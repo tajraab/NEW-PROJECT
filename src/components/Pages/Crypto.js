@@ -37,13 +37,22 @@ function Crypto() {
     fetchData();
   }, []);
   return (
-    <div>
-      <h1>CRYPTO CURRENCY</h1>
-      {coinData.map((coin) => (
-        <Cart key={coin.id} coin={coin} />
-      ))}
+    <div className="wrapper">
+    {/* <h1 style = {{color: "white"}}>CRYPTO CURRENCY</h1> */}
+    <div className="spacer"></div>
+    <div className="coin-container">
+      {coinData.map((coin) => <div className="coin"><Cart key={coin.id} coin={coin} /></div>)}
     </div>
-  );
+  </div>
+);
 }
+//     <div>
+//       <h1>CRYPTO CURRENCY</h1>
+//       {coinData.map((coin) => (
+//         <Cart key={coin.id} coin={coin} />
+//       ))}
+//     </div>
+//   );
+// }
 
 export default Crypto;
