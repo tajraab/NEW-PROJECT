@@ -1,7 +1,7 @@
 
  import React, { useState, useEffect} from "react";
  import axios from "axios";
-
+import Cart from "./Cart";
 function Crypto() {
     const[coinData, setCoinData] = useState([]);
 

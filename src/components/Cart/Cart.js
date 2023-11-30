@@ -1,7 +1,7 @@
 import React from "react";
  import "./Cart.css";
 
-function Cart({}) {
+function Cart({coin}) {
     return (
         <div className="card">
           <img src={coin.iconUrl}></img>
