@@ -4,6 +4,7 @@
     padding: 16px;
     margin: 16px;
     transition: transform 0.2s ease-in-out;
+    background-color:rgb(251, 216, 221);
   }
   
   .caart:hover {
@@ -22,5 +23,5 @@
   
   .min, .raank, .coinn {
     margin-top: 4px;
-    color: #555; 
+    color:gray; 
   }
