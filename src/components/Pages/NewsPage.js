@@ -1,7 +1,3 @@
-import React from "react";
 
-function NewsPage() {
-  return <div><h1>News</h1></div>;
-}
-
-export default NewsPage;
+import React, { useState, useEffect } from "react";
+import axios from "axios";

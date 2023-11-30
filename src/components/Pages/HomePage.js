@@ -2,6 +2,7 @@ import React, { useState, useEffect} from "react";
 import axios from "axios";
 import NewsPage from "./NewsPage";
 import Card from "../Card/Card";
+import  "./HomePage.css";
 function HomePage() {
   const[coinData, setCoinData] = useState([]);
 
