@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 // import LogoPage from './components/Pages/HomePage';
 import HomePage from "./components/Pages/HomePage";
 import Card from "./components/Card/Card";
+import Cart from "./components/Cart/Cart";
 function App() {
   return (
     <div className="App">

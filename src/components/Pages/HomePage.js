@@ -16,7 +16,7 @@ function HomePage() {
         'tiers[0]': '1',
         orderBy: 'marketCap',
         orderDirection: 'desc',
-        limit: '50',
+        limit: '10',
         offset: '0'
       },
       headers: {
