@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NewsPage from './components/Pages/NewsPage';
 import ExchangesPage from './components/Pages/ExchangesPage';
 import Crypto from './components/Pages/Crypto';
+import Footer from "./components/Footer/Footer";
 // import LogoPage from './components/Pages/HomePage';
 import HomePage from './components/Pages/HomePage';
  import Card from './components/Card/Card';
