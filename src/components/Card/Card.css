@@ -7,7 +7,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #dfd1d1;
 }
-
+.card:hover{
+  transform: scale(1.1);
+}
 .card img {
   width: 50px;
   height: 50px;

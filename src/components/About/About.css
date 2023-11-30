@@ -1,0 +1,35 @@
+.kartica {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(162, 162, 162);
+  }
+  
+  .naslov {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .cena {
+    color: green;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .rang {
+    color: #333;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .random {
+    color: #555;
+    font-size: 14px;
+    margin-top: 10px;
+     }
+     .kartica:hover{
+        transform: scale(1.1);
+      }

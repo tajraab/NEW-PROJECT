@@ -36,7 +36,7 @@ function HomePage() {
   fetchData();
 }, []);
 return(
-    <div>
+    <div className="wrapper">
       <h1>CRYPTO CURRENCY</h1>
     {coinData.map((coin) => (
       <Card key={coin.id} coin={coin} />
