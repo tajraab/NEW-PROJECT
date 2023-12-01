@@ -7,7 +7,7 @@ function News({coin}) {
           <img src={coin.iconUrl}></img>
           {/* <p style={{width:'200px' , height:'100px'}}> {coin.iconUrl}</p> */}
               <div className="total">{coin.name}</div>
-              <p className="min">{coin.price}$</p>
+              <p className="min">{typeof coin.price === 'number' ? coin.price.toFixed(5) : parseFloat(coin.price).toFixed(5)}$$</p>
               <p className="raank">{coin.rank}</p>
               <p className="coinn">{coin.rank}</p>
     
