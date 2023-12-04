@@ -7,13 +7,13 @@
     background-color: rgb(162, 162, 162);
   }
   
-  .naslov {
+  .paragraph-name {
     font-size: 24px;
     font-weight: bold;
     margin-top: 15px;
   }
   
-  .cena {
+  .paragraph-price {
     color: green;
     font-size: 18px;
     margin-top: 10px;
@@ -30,6 +30,6 @@
     font-size: 14px;
     margin-top: 10px;
      }
-     .kartica:hover{
+     .my-card:hover{
         transform: scale(1.1);
       }
