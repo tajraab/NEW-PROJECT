@@ -3,7 +3,7 @@ import React from "react";
 
 function About({coin}) {
     return (
-        <div className="kartica">
+        <div className="my-card">
           <img src={coin.iconUrl}></img>
           {/* <p style={{width:'200px' , height:'100px'}}> {coin.iconUrl}</p> */}
               <div className="naslov">{coin.name}</div>
