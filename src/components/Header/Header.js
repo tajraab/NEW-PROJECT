@@ -11,9 +11,9 @@ function Header() {
         <img onClick = {() => navigate("/")}src =" https://topliste.rs/wp-content/uploads/2020/05/ethereum-3818348_1920.jpg" />
       </div>
       <div className="links">
-        <h2 onClick={() => navigate("/crypto")}>All products</h2>
-        <h2 onClick={() => navigate("/exchanges")}>About</h2>
-        <h2 onClick={() => navigate("/news")}>Contact us</h2>
+        <h2 onClick={() => navigate("/crypto")}>Crypto</h2>
+        <h2 onClick={() => navigate("/exchanges")}>Exchanges</h2>
+        <h2 onClick={() => navigate("/news")}>News</h2>
       </div>
     </div>
   );
